@@ -1,0 +1,102 @@
+div{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  display: grid;
+  grid-gap: 20px;
+}
+header{
+  background-color: green;
+  text-align: center;
+  grid-row: 1;
+  grid-column: 1/4;
+}
+
+.sidebar{
+  background-color: gray;
+  margin-left: 25%;
+}
+.headborder{
+  border: 1.5px solid white;
+  padding: 4em;
+}
+
+
+.contacts{
+  border-bottom: 1.5px solid black;
+}
+
+.content{
+  margin-left:inherit;
+  display: grid;
+  grid-gap: 10px;
+}
+
+.biography{
+  border-bottom: 1.5px solid black;
+}
+
+.workexperience{
+  border-bottom: 1.5px solid black;
+}
+
+.wkexpcontainer{
+  display: grid;
+}
+
+.wkexpsec_date{
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.wkexpdec_desc{
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.wkexpsec_date1{
+  grid-row: 3;
+  grid-column: 1;
+}
+
+.wkexpdec_desc1{
+  grid-row: 3;
+  grid-column: 2;
+}
+.education{
+  border-bottom: 1.5px solid black;
+}
+
+.education_container{
+  display: grid;
+}
+.edusec_date{
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.edusec_desc{
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.edusec_date1{
+  grid-row: 3;
+  grid-column: 1;
+}
+
+.edudec_desc1{
+  grid-row: 3;
+  grid-column: 2;
+}
+
+.skill{
+  display: grid;
+}
+
+footer{
+  grid-row: 4;
+}
