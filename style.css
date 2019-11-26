@@ -15,15 +15,25 @@ header{
   grid-column: 1/4;
 }
 
+.profilePhoto {
+  border-radius: 75%;
+  margin-left: 37px;
+  margin-top: 12px;
+  width: 50%
+  align-content: center;
+}
+
+
 .sidebar{
   background-color: gray;
   margin-left: 25%;
+  width: auto;
+
 }
 .headborder{
   border: 1.5px solid white;
   padding: 4em;
 }
-
 
 .contacts{
   border-bottom: 1.5px solid black;
